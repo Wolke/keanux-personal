@@ -4,36 +4,44 @@
   <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
   <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
   <script src="https://www.parsecdn.com/js/parse-react.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  
-	   <script type="text/jsx">
-	   console.log("start");
-	   Parse.initialize("8lyw9RUk6Gk3xOqs22qdalYiPk8h36v10Ud51Il4", "IUg5DgmvoKba7cJIYGpV3F7MxXka6hNhaofjEQ93");
-  
-Parse.Cloud.run('hello2', {}, {
-  success: function(result) {
-    // result is 'Hello world!'
-    console.log(result);
-  },
-  error: function(error) {
-    console.log(error);
-    
-  }
-});
-     console.log("react");
+ <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
-		  
-		   // var React = require('react-native');
-	     /** @jsx React.DOM */
-		 
-	     React.render(
-	       <h1>Hello, world!</h1>,
-	       document.getElementById('example')
-	     );
-		 
+<script type="text/jsx" src="react.js"></script>
+
+	   <script type="text/jsx" >
+	    React.render(
+  <CommentBox />,
+  document.getElementById('content')
+);
+
+//  console.log("getScript");
+
+	
+//    $(function(){
+ 
+// 	   $.getScript( "parse.js" )
+//   .done(function( script, textStatus ) {
+//   	console.log("getScript success");
+
+//     console.log( textStatus );
+
+
+   
+//   })
+//   .fail(function( jqxhr, settings, exception ) {
+
+//     console.log("getScript fail");
+//     console.log(exception);
+
+
+// });
+
+//     });
+   
+ 
 	   </script>
-	
-	
+	   
+	   
 	</head>
 	<body>
 		<div id="example">
