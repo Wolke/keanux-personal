@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "_default": {
+      "link": "keanux"
+    },
+    "keanux": {
+      "applicationId": "8lyw9RUk6Gk3xOqs22qdalYiPk8h36v10Ud51Il4",
+      "masterKey": "5cEXkyzjKQstF5hu1Rw2uH7XiiKoixR8yFR42Kt8"
+    }
+  }
+}
